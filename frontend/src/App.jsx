@@ -15,8 +15,8 @@ import AuthRoute from "./components/Auth/AuthRoute";
 
 function App() {
   const user = useSelector((state) => state?.auth?.user);
-
-  return (
+  console.log("wtf")
+  return (  
     <BrowserRouter>
       {/* Navbar */}
 
