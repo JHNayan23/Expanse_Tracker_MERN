@@ -18,8 +18,10 @@ mongoose
 
 //! Cors config
 const corsOptions = {
-  origin: ["https://mern-expense-project.netlify.app/"],
+  origin: ["https://mern-expense-project.netlify.app"],
+  credentials: true, // if you use cookies or authentication
 };
+
 app.use(cors(corsOptions));
 //!Middlewares
 app.use(express.json()); //?Pass incoming json data
