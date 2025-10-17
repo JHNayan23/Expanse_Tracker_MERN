@@ -5,16 +5,10 @@ const userRouter = require("./routes/userRouter");
 const errorHandler = require("./middlewares/errorHandlerMiddleware");
 const categoryRouter = require("./routes/categoryRouter");
 const transactionRouter = require("./routes/transactionRouter");
-const path = require('path')
+
 
 
 const app = express();
-app.use(express.static(path.join(__dirname, 'dist')))
-
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'dist', 'index.html'))
-})
-
 
 //!Connect to mongodb
 mongoose
@@ -24,7 +18,7 @@ mongoose
 
 //! Cors config
 const corsOptions = {
-  origin: ["https://mern-expanses-app.onrender.com"],
+  origin: ["https://mern-expense-project.netlify.app/"],
 };
 app.use(cors(corsOptions));
 //!Middlewares
