@@ -1,1 +1,1 @@
-export const BASE_URL = "https://expanse-tracker-mern.onrender.com/api/v1";
+export const BASE_URL = "https://expanse-tracker-mern-seven.vercel.app";
