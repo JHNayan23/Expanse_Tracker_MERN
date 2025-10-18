@@ -18,7 +18,7 @@ mongoose
 
 //! Cors config
 const corsOptions = {
-  origin: ["https://mern-expense-project.netlify.app"],
+  origin: ["https://expanse-tracker-mern-buii.vercel.app"],
   credentials: true, // if you use cookies or authentication
 };
 
