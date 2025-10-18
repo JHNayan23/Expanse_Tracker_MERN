@@ -18,7 +18,7 @@ mongoose
 
 //! Cors config
 const corsOptions = {
-  origin: ["https://expanse-tracker-mern-buii.vercel.app"],
+  origin: ["http://localhost:5173"],
   credentials: true, // if you use cookies or authentication
 };
 
