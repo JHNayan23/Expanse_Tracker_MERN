@@ -25,7 +25,6 @@ Environment Management: dotenv
 Security: bcrypt, CORS
 
 ⚙️ Installation
-
 Clone the repository
 bash
 git clone https://github.com/yourusername/expense-tracker-mern.git
