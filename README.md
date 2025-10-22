@@ -32,9 +32,9 @@ cd expense-tracker-mern
 
 Install dependencies for both frontend and backend
 bash
-npm install
-cd client
-npm install
+npm install,
+cd frontend,
+npm install,
 cd ..
 
 Create a .env file in the root folder and add:
@@ -44,7 +44,7 @@ PORT=5000
 
 Run the server:
 bash
-npm run dev
+npm run dev,
 Your app should now run at http://localhost:5000.
 
 🌐 Live Demo
